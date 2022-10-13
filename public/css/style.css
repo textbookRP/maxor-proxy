@@ -87,6 +87,7 @@ margin-bottom: 20px;
 
 .homelogo {
 position: absolute;
+margin: auto;
 top: 75px;
 width: 25%
 }
