@@ -6,7 +6,7 @@
 
 <h1>Maxor proxy</h1>
 
-<h3>A reskinned and updated version of coderkid's milknami</h3>
+<h3>A reskinned and updated version of coderkid's milknami, which is a version of Tsunami</h3>
 
 <p>EZ deploy with heroku, just click button and follow the steps in Heroku! Glitch and Repl.it are untested as of now but feel free to be the first person!</p>
 
