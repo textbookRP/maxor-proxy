@@ -10,7 +10,6 @@
 
 <p>EZ deploy with heroku, just click button and follow the steps in Heroku! Glitch and Repl.it are untested as of now but feel free to be the first person!</p>
 
-<p>Want to improve Milknami? <a href="https://github.com/textbookRP/Milknami/compare">Create a pull request</a></p>
 </div>
 
 <p align="center">
