@@ -4,9 +4,9 @@
 <img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/c0d3rb0y/Milknami/main/public/img/cookie.png">
 </kbd>
 
-<h1>Milknami</h1>
+<h1>Maxor proxy</h1>
 
-<h3>A fork of Tsunami for the purpouses of screwing over Securly and PaloAlto at my school.</h3>
+<h3>A reskinned and updated version of coderkid's milknami</h3>
 
 <p>EZ deploy with heroku, just click button and follow the steps in Heroku! Glitch and Repl.it are untested as of now but feel free to be the first person!</p>
 
@@ -41,6 +41,8 @@
 [Shirt](https://github.com/shirt-dev) - Proxy Developer
 
 [Karlee Rae](https://github.com/KarleeRae) - MinecraftJS
+
+[rextbookRP](https://github.com/textbookRP) - Independent dev trying to keep this updated
 
 ### Contributing
 
