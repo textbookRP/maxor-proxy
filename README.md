@@ -10,15 +10,14 @@
 
 <p>EZ deploy with heroku, just click button and follow the steps in Heroku! Glitch and Repl.it are untested as of now but feel free to be the first person!</p>
 
-<p>Want to improve Milknami? <a href="https://github.com/c0d3rb0y/Milknami/compare">Create a pull request</a></p>
+<p>Want to improve Milknami? <a href="https://github.com/textbookRP/Milknami/compare">Create a pull request</a></p>
 </div>
 
 <p align="center">
-<a href="https://heroku.com/deploy?template=https://github.com/c0d3rb0y/Milknami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img></a>
-<a href="https://repl.it/github/c0d3rb0y/Milknami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
-<a href="https://glitch.com/edit/#!/import/github/c0d3rb0y/Milknami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/glitch2.svg"><img></a>
+<a href="https://heroku.com/deploy?template=https://github.com/textbookRP/Milknami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img></a>
+<a href="https://repl.it/github/textbookRP/Milknami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
+<a href="https://glitch.com/edit/#!/import/github/textbookRP/Milknami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/glitch2.svg"><img></a>
 </p>
-GUYS WHY IS THERE SO MANY FORKS THIS PROJECT DIED MONTHS AGOOOOOO LMAO
 ### Credits
 
 [Coderkid](https://github.com/c0d3rb0y) - Milknami Main Dev
