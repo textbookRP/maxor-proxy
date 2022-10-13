@@ -42,7 +42,7 @@
 
 [Karlee Rae](https://github.com/KarleeRae) - MinecraftJS
 
-[rextbookRP](https://github.com/textbookRP) - Independent dev trying to keep this updated
+[TextbookRP](https://github.com/textbookRP) - Independent dev trying to keep this updated
 
 ### Contributing
 
