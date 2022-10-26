@@ -104,14 +104,6 @@ background-color: rgb(16,16,16,0);
 color: white;
 }
 
-.searchicon {
-position: absolute;
-top: 371px;
-margin-left: 12px;
-color: #666666;
-font-size: 22px;
-}
-
 #chatbox {
 position: absolute;
 top: 60px; 
