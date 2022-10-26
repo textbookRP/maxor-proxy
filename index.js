@@ -8,6 +8,7 @@ const express = require('express')
 const app = express()
 const basicAuth = require('express-basic-auth');
 const config = require('./config.json')
+const port = process.env.PORT || config.port
 const Corrosion = require('./lib/server')
 const SmokeProxy = require("./smoke/smoke")
 const prefix = "/smoke/"
