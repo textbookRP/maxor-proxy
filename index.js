@@ -9,7 +9,7 @@ const app = express()
 const basicAuth = require('express-basic-auth');
 const config = require('./config.json')
 const Corrosion = require('./lib/server')
-const port = process.env.PORT || config.port
+const port = process.env.PORT
 const SmokeProxy = require("./smoke/smoke")
 const prefix = "/smoke/"
 const btoa = e => new Buffer.from(e).toString("base64")
