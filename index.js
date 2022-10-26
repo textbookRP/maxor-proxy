@@ -9,6 +9,7 @@ const app = express()
 const basicAuth = require('express-basic-auth');
 const config = require('./config.json')
 const Corrosion = require('./lib/server')
+const port = process.env.PORT || config.port
 const SmokeProxy = require("./smoke/smoke")
 const prefix = "/smoke/"
 const btoa = e => new Buffer.from(e).toString("base64")
@@ -84,3 +85,9 @@ app.use(function (req, res) {
 }).post('*', (req, res) => {
   if (req.url.startsWith(prefix)) return smoke.post(req, res)
 })
+
+app.listen(port, () => {
+    console.log(`Tsunami is running at localhost:${port}`)
+})
+
+
