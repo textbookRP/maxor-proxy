@@ -6,7 +6,8 @@
         "url": "https://github.com/FogNetwork/Tsunami/issues"
     },
     "engines": {
-        "node":"16.x"
+        "node":"16.x",
+        "npm":"7.x"
     },
     "description": "Tsunami is a official Fog Network proxy site, made to access the blocked web",
     "main": "index.js",
