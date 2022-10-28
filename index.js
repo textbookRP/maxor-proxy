@@ -21,15 +21,13 @@ const password = config.password
 const users = {}
 users[username] = password
 
-const proxy = new Rhodium({
-    "userAgent": "gl",
-    "prefix": "/service/",
-    "wss": true,
-    "corrosion": [false, {}],
-    "title": "Rhodium",
-    "server": http.Server("https://maxortest.herokuapp.com/"),
-    "encode": "xor",
-    "http.Server()": HTTP Server, Default Setting
+const proxy = new Rhodium.default({
+    server: server,
+    prefix: "/service/",
+    wss: true,
+    corrosion: [false, {}],
+    title: "Rhodium",
+    encode: "xor",
 });
 
 proxy.bundleScripts();
