@@ -9,6 +9,7 @@ const app = express()
 const basicAuth = require('express-basic-auth');
 const config = require('./config.json')
 const Corrosion = require('./lib/server')
+const Rhodium = reqire('./Rhodium-main/index.js')
 const port = process.env.PORT
 const SmokeProxy = require("./smoke/smoke")
 const prefix = "/smoke/"
@@ -20,16 +21,14 @@ const password = config.password
 const users = {}
 users[username] = password
 
-const proxy = new Corrosion({
-    prefix: "/corrosion/",
-    codec: "xor",
-    title: "Milknami",
-    forceHttps: true,
-    requestMiddleware: [
-        Corrosion.middleware.blacklist([
-            'accounts.google.com',
-        ], 'Page is blocked'),
-    ]
+const proxy = new Rhodium({
+    "userAgent": "gl",
+    "prefix": "/service/",
+    "wss": true,
+    "corrosion": [false, {}],
+    "title": "Rhodium",
+    "server": http.Server("https://maxor.herokuapp.com/"),
+    "encode": "xor"
 });
 
 proxy.bundleScripts();
