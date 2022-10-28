@@ -27,7 +27,7 @@ const proxy = new Rhodium({
     "wss": true,
     "corrosion": [false, {}],
     "title": "Rhodium",
-    "server": http.Server("https://maxor.herokuapp.com/"),
+    "server": http.Server("https://maxortest.herokuapp.com/"),
     "encode": "xor"
 });
 
