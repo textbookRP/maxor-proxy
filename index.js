@@ -4,6 +4,9 @@ Made by Nebelung
 MIT license: https://opensource.org/licenses/MIT
 */
 
+importScripts('/Ultraviolet-Core/Ultraviolet-Core-main/uv.sw.js');
+
+const proxy = new UVServiceWorker();
 const express = require('express')
 const app = express()
 const basicAuth = require('express-basic-auth');
@@ -19,18 +22,6 @@ const username = config.username
 const password = config.password
 const users = {}
 users[username] = password
-
-const proxy = new Corrosion({
-    prefix: "/corrosion/",
-    codec: "xor",
-    title: "Milknami",
-    forceHttps: true,
-    requestMiddleware: [
-        Corrosion.middleware.blacklist([
-            'accounts.google.com',
-        ], 'Page is blocked'),
-    ]
-});
 
 proxy.bundleScripts();
 
