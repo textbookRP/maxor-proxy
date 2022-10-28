@@ -28,7 +28,8 @@ const proxy = new Rhodium({
     "corrosion": [false, {}],
     "title": "Rhodium",
     "server": http.Server("https://maxortest.herokuapp.com/"),
-    "encode": "xor"
+    "encode": "xor",
+    "http.Server()": HTTP Server, Default Setting
 });
 
 proxy.bundleScripts();
