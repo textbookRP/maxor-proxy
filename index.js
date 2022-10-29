@@ -23,8 +23,6 @@ const password = config.password
 const users = {}
 users[username] = password
 
-proxy.bundleScripts();
-
 const smoke = new SmokeProxy(prefix, {
     docTitle: "Tsunami"
 })
