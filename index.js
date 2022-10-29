@@ -23,6 +23,12 @@ const password = config.password
 const users = {}
 users[username] = password
 
+self.addEventListener('fetch', event =>
+    event.respondWith(
+        proxy.fetch(event)
+    )
+);
+
 const smoke = new SmokeProxy(prefix, {
     docTitle: "Tsunami"
 })
