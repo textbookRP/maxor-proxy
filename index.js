@@ -23,12 +23,6 @@ const password = config.password
 const users = {}
 users[username] = password
 
-self.addEventListener('fetch', event =>
-    event.respondWith(
-        proxy.fetch(event)
-    )
-);
-
 const smoke = new SmokeProxy(prefix, {
     docTitle: "Tsunami"
 })
@@ -69,7 +63,12 @@ app.get('/', function(req, res){
 
 app.use(function (req, res) {
     if (req.url.startsWith(proxy.prefix)) {
-      proxy.request(req,res);
+      self.addEventListener('fetch', event =>
+        event.respondWith(
+            proxy.fetch(event)
+        )
+    );
+
     } else if (req.url.startsWith(prefix + "gateway")) {
       res.redirect(prefix + btoa(req.query.url))
     } else if (req.url.startsWith(prefix)) {
