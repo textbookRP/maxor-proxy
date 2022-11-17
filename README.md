@@ -4,7 +4,7 @@
 
 <h3>A reskinned and updated version of coderkid's milknami, which is a version of Tsunami</h3>
 
-<p>EZ deploy with heroku, just click button and follow the steps in Heroku! Glitch and Repl.it are untested as of now but feel free to be the first person!</p>
+<p>Easy deploy with heroku, just click button and follow the steps! Glitch and Repl.it are untested as of now but feel free to be the first person! Koyeb is a relatively new addition, but is my recomendation for public proxies.</p>
 
 </div>
 
