@@ -13,6 +13,7 @@
 <a href="https://repl.it/github/textbookRP/maxor-proxy"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
 <a href="https://glitch.com/edit/#!/import/github/textbookRP/maxor-proxy"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/glitch2.svg"><img></a>
 <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/textbookRP/maxor-proxy&branch=main&name=maxor"><img height="30px" src="https://raw.githubusercontent.com/textbookRP/maxor-proxy/main/deploy/koyeb2.svg"><img></a>
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FtextbookRP%2FHoly-Unblocker)
 </p>
 ### Credits
 
